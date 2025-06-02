@@ -66,7 +66,7 @@ const msg= document.querySelector("#msg");
         msg.innerHTML="Message sent successfully";
         setTimeout(function(){
           msg.innerHTML="";
-        },5000);
+        },1000);
         form.reset();
         console.log('Success!', response)
       })
